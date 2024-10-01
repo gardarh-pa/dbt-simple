@@ -1,0 +1,8 @@
+default:
+
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: 'simple.duckdb'
+      threads: 24
