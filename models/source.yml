@@ -3,5 +3,5 @@ version: 2
 sources:
   - name: postgres_rds_postgres_rds_public
     tables:
-      - name: employees_out
+      - name: employees
 
