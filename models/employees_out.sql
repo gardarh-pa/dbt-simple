@@ -4,7 +4,7 @@ with final as (
         empid,
         salary * 2
 
-    from {{ source('postgres_rds','employees') }}
+    from {{ source('postgres_rds_postgres_rds_public','employees') }}
 
 )
 
