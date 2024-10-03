@@ -4,6 +4,4 @@ models:
   - name: employees_out
     columns:
       - name: empid
-      - name: jobrole
-      - name: email
-      - name: salary
+      - name: salary_times_two
