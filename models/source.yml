@@ -2,6 +2,7 @@ version: 2
     
 sources:
   - name: postgres_rds_postgres_rds_public
+    schema: postgres_rds_public
     tables:
       - name: employees
 
